@@ -1,0 +1,33 @@
+.container-fluid{
+    background-color: #f1f2f6;
+}
+.container-fluid .row{
+    padding: 150px 0;
+}
+.sign-form{
+    width: 335px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.tagline{
+    font-size: 28px;
+    padding: 0 32px;
+}
+.logo{
+    padding: 75px 50px 75px 50px;
+}
+.logo-image{
+    width: 300px;
+    height: auto;
+}
+.page-link{
+    padding-top: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    .sign-form{
+        margin: auto;
+    }
+}
